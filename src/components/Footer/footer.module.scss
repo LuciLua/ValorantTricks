@@ -1,0 +1,13 @@
+.footer {
+  height: var(--height-footer);
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 200px 1fr; // 300px logo, 1fr menu
+
+  position: relative;
+
+  font-family: var(--font-valorant);
+
+  padding: 0 30px;
+}

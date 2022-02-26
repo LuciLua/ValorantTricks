@@ -1,0 +1,90 @@
+// Imports
+@font-face {
+  font-family: "lexend-thin";
+  src: url("../fonts/lexend/Lexend-Thin.ttf");
+}
+@font-face {
+  font-family: "lexend-regular";
+  src: url("../fonts/lexend/Lexend-Regular.ttf");
+}
+@font-face {
+  font-family: "lexend-bold";
+  src: url("../fonts/lexend/Lexend-Bold.ttf");
+}
+@font-face {
+  font-family: "lexend-black";
+  src: url("../fonts/lexend/Lexend-Black.ttf");
+}
+@font-face {
+  font-family: "valorant";
+  src: url("../fonts/valorantFont.ttf");
+}
+
+// Global variables
+:root {
+  // Color Palete
+  --valorant-red-light: #fd4556;
+  --valorant-red-medium: #bd3944;
+  --valorant-red-dark: #53212b;
+  --valorant-white: #fffbf5;
+  --valorant-dark: #000000;
+
+  // Fonts
+  --font-valorant: "valorant", "Segoe UI", sans-serif;
+  --font-lexend-thin: "lexend-thin", "Segoe UI", sans-serif;
+  --font-lexend-regular: "lexend-regular", "Segoe UI", sans-serif;
+  --font-lexend-bold: "lexend-bold", "Segoe UI", sans-serif;
+  --font-lexend-black: "lexend-black", "Segoe UI", sans-serif;
+
+  // Height
+  --height-header: 80px;
+  --height-footer: 80px;
+  --height-main: calc(100vh - (var(--height-footer) + var(--height-header)));
+}
+
+// Global Layout Default
+*::before,
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  header {
+    margin-bottom: auto;
+  }
+
+  main {
+    min-height: var(--height-main);
+    background-color: #e4e4e4;
+    padding: 30px;
+  }
+
+  footer {
+    margin-top: auto;
+  }
+}
+
+.container {
+  width: 100%;
+  background-color: var(--valorant-red-light);
+  color: var(--valorant-white);
+
+  font-family: var(--font-lexend-regular);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
