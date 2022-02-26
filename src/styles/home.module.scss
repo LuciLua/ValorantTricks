@@ -1,14 +1,124 @@
-.container{
-    background-color: #fff;
-    height: 300px;
-    width: 100%;
+.container {
+  background-color: #fff;
+  height: 300px;
+  width: 100%;
 
-    box-shadow: 0 0 12px rgb(204, 204, 204);
-    border-radius: 5px;
+  box-shadow: 0 0 12px rgb(204, 204, 204);
+  border-radius: 5px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font-lexend-bold);
+}
+
+.titleContent {
+  display: flex;
+
+  height: 500px;
+  position: relative;
+
+  border-radius: 40px;
+  margin: auto;
+
+  margin-bottom: 20px;
+
+  .outdoor {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    font-family: var(--font-lexend-bold);
+    width: 50%;
+    position: relative;
+
+    img {
+      object-fit: contain;
+    }
+  }
+
+  .subtitleAndButtons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: var(--font-lexend-bold);
+      color: var(--valorant-red-light);
+      font-size: 20px;
+    }
+    h3 {
+      font-family: var(--font-lexend-bold);
+      color: var(--valorant-red-light);
+      font-size: 4rem;
+    }
+
+    .buttonsGroup {
+      display: flex;
+      margin-top: 20px;
+      button {
+        width: 160px;
+        height: 40px;
+
+        cursor: pointer;
+
+        border: 2px solid var(--valorant-red-light);
+        color: var(--valorant-red-light);
+
+        font-family: var(--font-lexend-bold);
+
+        border-radius: 7px;
+
+        margin: 5px;
+
+        &:nth-of-type(1) {
+          background: var(--valorant-red-light);
+          border: none;
+          color: var(--valorant-white);
+
+          &:hover {
+            background-color: var(--valorant-red-light-hover);
+          }
+          &:active {
+            background-color: var(--valorant-red-light-active);
+          }
+        }
+
+        &:hover {
+          background-color: var(--valorant-red-light);
+          color: var(--valorant-white);
+        }
+        &:active {
+          background-color: var(--valorant-red-light-active);
+          border-color: var(--valorant-red-light-active);
+        }
+      }
+    }
+  }
+}
+
+// Small displays
+@media (max-width: 670px) {
+  .titleContent {
+    flex-direction: column;
+    
+    width: 100%;
+    height: fit-content;
+
+    align-items: center;
+    justify-content: center;
+
+
+    .outdoor {
+      width: 100%;
+      height: 300px;
+    }
+
+    .subtitleAndButtons {
+      width: 100%;
+      height: fit-content;
+    }
+  }
 }
