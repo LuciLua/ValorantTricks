@@ -42,3 +42,4 @@ yarn start
 ## 🖼 Preview
 
 <img src="./public/preview.png">
+<img src="./public/preview2.png">
