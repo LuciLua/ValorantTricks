@@ -14,7 +14,7 @@
   .agent {
     background-size: 7px;
 
-    padding: 10px 30px;
+    padding: 5px 13px;
 
     max-width: 200px;
     min-height: 290px;
@@ -32,27 +32,29 @@
     color: var(--valorant-white);
 
     font-size: 2rem;
+    box-shadow: 0 0 12px var(--valorant-dark-transparent25);
 
     &[type="duelista"] {
-      background-color: var(--valorant-agent-duelista);
+      background: linear-gradient(var(--valorant-agent-duelista), #fff);
       color: var(--valorant-white);
     }
     &[type="controlador"] {
-      background-color: var(--valorant-agent-controlador);
+      background: linear-gradient(var(--valorant-agent-controlador), #fff);
       color: var(--valorant-dark-transparent75);
     }
     &[type="sentinela"] {
-      background-color: var(--valorant-agent-sentinela);
+      background: linear-gradient(var(--valorant-agent-sentinela), #fff);
       color: var(--valorant-white);
     }
     &[type="iniciador"] {
-      background-color: var(--valorant-agent-iniciador);
+      background: linear-gradient(var(--valorant-agent-iniciador), #fff);
       color: var(--valorant-white);
     }
 
     .titleAgent {
       width: 100%;
-      border-bottom: var(--valorant-white) 2px solid;
+    //   border-bottom: var(--valorant-white) 1px solid;
+    text-align: left;
     }
 
     .types {
