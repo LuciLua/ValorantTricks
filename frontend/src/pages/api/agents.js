@@ -6,7 +6,7 @@ function Agents(req, res) {
     const [agents, setAgents] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:3001/agents")
+        axios.get("https://valorantricks.herokuapp.com/agents")
             .then(resp => resp = resp.data)
             .then(data => setAgents(data))
     }, [])
