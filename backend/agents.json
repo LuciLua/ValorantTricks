@@ -1,0 +1,112 @@
+{
+    "agents": [
+        {
+            "id": 1,
+            "name": "Sova",
+            "image": "/agents/valorant_agent_sova.png",
+            "type": "iniciador"
+        },
+        {
+            "id": 2,
+            "name": "Astra",
+            "image": "/agents/valorant_agent_astra.png",
+            "type": "controlador"
+        },
+        {
+            "id": 3,
+            "name": "Breach",
+            "image": "/agents/valorant_agent_breach.png",
+            "type": "iniciador"
+        },
+        {
+            "id": 4,
+            "name": "Brimstone",
+            "image": "/agents/valorant_agent_brimstone.png",
+            "type": "controlador"
+        },
+        {
+            "id": 5,
+            "name": "Chamber",
+            "image": "/agents/valorant_agent_chamber.png",
+            "type": "sentinela"
+        },
+        {
+            "id": 6,
+            "name": "Cypher",
+            "image": "/agents/valorant_agent_cypher.png",
+            "type": "sentinela"
+        },
+        {
+            "id": 7,
+            "name": "Jett",
+            "image": "/agents/valorant_agent_jett.png",
+            "type": "duelista"
+        },
+        {
+            "id": 8,
+            "name": "Kayo",
+            "image": "/agents/valorant_agent_kayo.png",
+            "type": "iniciador"
+        },
+        {
+            "id": 9,
+            "name": "Killjoy",
+            "image": "/agents/valorant_agent_killjoy.png",
+            "type": "sentinela"
+        },
+        {
+            "id": 10,
+            "name": "Neon",
+            "image": "/agents/valorant_agent_neon.png",
+            "type": "duelista"
+        },
+        {
+            "id": 11,
+            "name": "Omen",
+            "image": "/agents/valorant_agent_omen.png",
+            "type": "controlador"
+        },
+        {
+            "id": 12,
+            "name": "Phoenix",
+            "image": "/agents/valorant_agent_phoenix.png",
+            "type": "duelista"
+        },
+        {
+            "id": 13,
+            "name": "Raze",
+            "image": "/agents/valorant_agent_raze.png",
+            "type": "duelista"
+        },
+        {
+            "id": 14,
+            "name": "Reyna",
+            "image": "/agents/valorant_agent_reyna.png",
+            "type": "duelista"   
+        },
+        {
+            "id": 15,
+            "name": "Sage",
+            "image": "/agents/valorant_agent_sage.png",
+            "type": "sentinela"
+        },
+        {
+            "id": 16,
+            "name": "Viper",
+            "image": "/agents/valorant_agent_viper.png",
+            "type": "controlador"
+        },
+        {
+            "id": 17,
+            "name": "Yoru",
+            "image": "/agents/valorant_agent_yoru.png",
+            "type": "duelista"
+        },
+        {
+            "id": 18,
+            "name": "Skye",
+            "image": "/agents/valorant_agent_skye.png",
+            "type": "iniciador"
+        }
+    ]
+}

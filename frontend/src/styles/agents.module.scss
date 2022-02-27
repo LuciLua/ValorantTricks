@@ -1,0 +1,140 @@
+.container {
+  min-height: 300px;
+  width: 100%;
+
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-family: var(--font-lexend-bold);
+
+  .agent {
+    background-size: 7px;
+
+    padding: 10px 30px;
+
+    max-width: 200px;
+    min-height: 290px;
+    margin: 10px;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+
+    color: var(--valorant-white);
+
+    font-size: 2rem;
+
+    &[type="duelista"] {
+      background-color: var(--valorant-agent-duelista);
+      color: var(--valorant-white);
+    }
+    &[type="controlador"] {
+      background-color: var(--valorant-agent-controlador);
+      color: var(--valorant-dark-transparent75);
+    }
+    &[type="sentinela"] {
+      background-color: var(--valorant-agent-sentinela);
+      color: var(--valorant-white);
+    }
+    &[type="iniciador"] {
+      background-color: var(--valorant-agent-iniciador);
+      color: var(--valorant-white);
+    }
+
+    .titleAgent {
+      width: 100%;
+      border-bottom: var(--valorant-white) 2px solid;
+    }
+
+    .types {
+      display: flex;
+      flex-direction: row;
+
+      margin: 10px 0 20px 0;
+      width: 100%;
+
+      .typeName {
+        border-radius: 10px;
+        font-size: 13px;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+        margin: 0 5px;
+
+        padding: 1px 6px;
+
+        box-shadow: 0 0 7px var(--valorant-dark-transparent25);
+
+        &[type="duelista"] {
+          background-color: var(--valorant-agent-duelista);
+          color: #fff;
+        }
+        &[type="controlador"] {
+          background-color: var(--valorant-agent-controlador);
+          color: rgb(55, 54, 54);
+        }
+        &[type="sentinela"] {
+          background-color: var(--valorant-agent-sentinela);
+          color: #fff;
+        }
+        &[type="iniciador"] {
+          background-color: var(--valorant-agent-iniciador);
+          color: #fff;
+        }
+      }
+
+      .typeIcon {
+        font-size: 20px;
+        border-radius: 30px;
+        background-color: var(--valorant-red-light);
+        color: aliceblue;
+        width: 30px;
+        height: 30px;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+
+        box-shadow: 0 0 7px var(--valorant-dark-transparent25);
+
+        &[type="duelista"] {
+          background-color: var(--valorant-agent-duelista);
+          color: #fff;
+        }
+        &[type="controlador"] {
+          background-color: var(--valorant-agent-controlador);
+          color: rgb(55, 54, 54);
+        }
+        &[type="sentinela"] {
+          background-color: var(--valorant-agent-sentinela);
+          color: #fff;
+        }
+        &[type="iniciador"] {
+          background-color: var(--valorant-agent-iniciador);
+          color: #fff;
+        }
+      }
+    }
+
+    .agentImage {
+      width: 200px;
+      height: 200px;
+      position: relative;
+
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}
