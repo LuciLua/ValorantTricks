@@ -50,6 +50,11 @@
   // Color Palete: active
   --valorant-red-light-active: #e93446;
 
+  // Colors 
+
+  --gray-1: #e4e4e4;
+  --gray-2: #c4c4c4;
+
 
   // Fonts
   --font-valorant: "valorant", "Segoe UI", sans-serif;
@@ -109,4 +114,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+
+// Scrolling
+
+::-webkit-scrollbar{
+  width: 7px;
+  background: var(--gray-1);
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--gray-2);
+  border-radius: 20px;
 }
