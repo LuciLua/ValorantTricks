@@ -14,11 +14,16 @@ import {
   GiCherish,
 } from "react-icons/gi";
 
+import Head from "next/head";
+
 function Agents() {
   const listAgents = AgentsAPI();
 
   return (
     <>
+      <Head>
+        <title>Agentes - Valorant Tricks</title>
+      </Head>
       <main>
         <div className={styles.container}>
           {listAgents.map((agent) => {
