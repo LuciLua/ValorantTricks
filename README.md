@@ -1,6 +1,6 @@
 # <p align="center"> Projeto Valorant Tricks </p>
 <p align="center">
-<img src="./public/valorant_agents_01.png" width=300>
+<img src="./frontend/public/valorant_agents_01.png" width=300>
 </p>
 <p align="center">Dicas de Valorant e mais!</p>
 <h1 align="center">
