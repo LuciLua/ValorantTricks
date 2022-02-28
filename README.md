@@ -41,5 +41,5 @@ yarn start
 ```
 ## 🖼 Preview
 
-<img src="./public/preview.png">
-<img src="./public/preview2.png">
+<img src="./frontend/public/preview.png">
+<img src="./frontend/public/preview2.png">
