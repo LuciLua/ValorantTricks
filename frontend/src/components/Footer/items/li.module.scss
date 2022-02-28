@@ -1,0 +1,12 @@
+.li{
+    font-family: var(--font-lexend-regular);
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: var(--valorant-white-transparent25);
+
+        &:hover{
+            color: var(--valorant-white);
+        }
+    }
+}
