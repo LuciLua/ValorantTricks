@@ -17,16 +17,37 @@ import {
 import Head from "next/head";
 import SkeletonAgents from "../components/Skeletons/SkeletonAgents";
 
-function Agents() {
-  const listAgents = AgentsAPI();
+import axios from "axios";
 
+
+export async function getStaticProps(){
+
+  const res = await axios.get("https://valorantricks.herokuapp.com/agents")
+  const data = await res.data
+
+  return{
+    props: {
+      agentsProps: data
+    },
+    revalidate: 60*5 // 5 minutos
+  }
+}
+
+
+function Agents({ agentsProps }) {
+  
+  // const agentsList = AgentsAPI();
+  const agentsList = agentsProps
+  
   const [agents, setAgents] = useState(null);
+  
 
   useEffect(() => {
     setTimeout(() => {
-      const list = listAgents;
-      setAgents(list);
-    }, 2000);
+      setAgents({
+        agentsProps
+      })
+    }, 100);
   });
 
   return (
@@ -37,7 +58,7 @@ function Agents() {
       <main>
         <div className={styles.container}>
           {agents &&
-            listAgents.map((agent) => {
+            agentsList.map((agent) => {
               return (
                 <div
                   className={styles.agent}

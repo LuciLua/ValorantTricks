@@ -8,7 +8,7 @@ import { HiMenu, HiUser, HiHome } from "react-icons/hi";
 import { GiThink, GiMagickTrick } from "react-icons/gi";
 import User from './ItemList/User';
 
-function Header() {
+function Header(props) {
   return (
       <header className={`${styles.header} container`}>
         <div className={styles.logo}>
@@ -19,7 +19,7 @@ function Header() {
             <Li href="/" icon={<HiHome/>}>Home</Li>
             <Li href="/agents" icon={<GiThink/>}>Agentes</Li>
             <Li href="/tricks" icon={<GiMagickTrick/>}>Dicas</Li>
-            <Li href="/profile" user="user" icon={<User/>}>Himpero</Li>
+            <Li href="/#" user="user" icon={<User/>} click={props.modal}>Himpero</Li>
             <Li href="/" icon={<HiMenu/>}>Menu</Li>
           </ul>
         </nav>
