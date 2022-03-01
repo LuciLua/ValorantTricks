@@ -12,9 +12,13 @@
 
   position: relative;
 
-  &[user]{
-    .a{
-      padding: 3px 13px 3px 3px;
+  
+  &[user] {
+    width: 100%;
+    .a {
+      padding: 3px 13px 4px 0px;
+      border: 2px solid var(--valorant-white-transparent25);
+      
     }
   }
 
@@ -70,7 +74,7 @@
 
   background-color: var(--valorant-white-transparent50);
   overflow: hidden;
-  
+
   .img {
     position: relative;
 
