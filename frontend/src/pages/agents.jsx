@@ -47,7 +47,7 @@ function Agents({ agentsProps }) {
       setAgents({
         agentsProps
       })
-    }, 100);
+    }, 1500);
   });
 
   return (
