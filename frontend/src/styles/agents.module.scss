@@ -24,7 +24,7 @@
 
     margin: 10px;
 
-    border-radius: 10px;
+    border-radius: var(--border-radius-card-agent);
 
     display: flex;
     justify-content: center;
@@ -164,8 +164,10 @@
 
       margin: 0px;
       background-color: var(--valorant-white-transparent75);
-      border-radius: 30px;
+      border-radius: 30px 30px var(--border-radius-card-agent) var(--border-radius-card-agent);
       padding: 10px 14px;
+
+      height: calc(290px - 5%);
 
       backdrop-filter: blur(4px);
 
@@ -190,10 +192,10 @@
 
       transition: 0.2s;
 
-      min-width: 400px;
-      min-height: 400px;
+      min-width: 350px;
+      min-height: 350px;
 
-      z-index: 3;
+      z-index: 1;
     }
 
     &:hover .biography {

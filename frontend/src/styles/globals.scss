@@ -69,7 +69,12 @@
   --height-header: 80px;
   --height-footer: 80px;
   --height-main: calc(100vh - (var(--height-footer) + var(--height-header)));
+
+  // Border-radius
+  --border-radius-card-agent: 10px;
 }
+
+
 
 // Global Layout Default
 *::before,
