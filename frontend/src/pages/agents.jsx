@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "../styles/agents.module.scss";
 
 // API
-import AgentsAPI from "./api/agents";
+import loadData from "./api/agents";
 
 // Assets
 import {
@@ -17,14 +17,8 @@ import {
 import Head from "next/head";
 import SkeletonAgents from "../components/Skeletons/SkeletonAgents";
 
-import axios from "axios";
-
-
-export async function getStaticProps(){
-
-  const res = await axios.get("https://valorantricks.herokuapp.com/agents")
-  const data = await res.data
-
+export async function getStaticProps(ctx){
+  const data = await loadData()
   return{
     props: {
       agentsProps: data
@@ -33,14 +27,11 @@ export async function getStaticProps(){
   }
 }
 
-
 function Agents({ agentsProps }) {
   
-  // const agentsList = AgentsAPI();
   const agentsList = agentsProps
   
   const [agents, setAgents] = useState(null);
-  
 
   useEffect(() => {
     setTimeout(() => {
