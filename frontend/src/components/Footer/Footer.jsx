@@ -1,13 +1,11 @@
+// React
 import React from "react";
 // Styles
 import styles from "./footer.module.scss";
 // Components
-
+import Li from "./items/Li";
 // Assets
 // import { GiThink, GiMagickTrick } from "react-icons/gi";
-
-import Link from "next/link";
-import Li from "./items/Li";
 
 function Footer() {
   return (

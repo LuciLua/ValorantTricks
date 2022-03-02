@@ -1,6 +1,7 @@
-import Image from "next/image";
+// Styles
 import styles from "../styles/404.module.scss";
-
+// Next imports
+import Image from "next/image";
 import Head from "next/head";
 
 export default function Custom404() {

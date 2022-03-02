@@ -1,9 +1,10 @@
-import Image from "next/image";
+// React
 import React from "react";
+// Next improts
+import Image from "next/image";
+import Head from "next/head";
 // Styles
 import styles from "../styles/home.module.scss";
-
-import Head from "next/head"
 
 function Home() {
   return (

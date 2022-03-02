@@ -1,4 +1,4 @@
-// import Shimmer from "./Shimmer";
+// Skeleton components
 import Shimmer from "./Shimmer";
 import SkeletonElement from "./SkeletonElement";
 

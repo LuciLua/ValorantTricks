@@ -1,7 +1,10 @@
+// React
 import React from "react";
+// Next imports
 import Link from "next/link";
 // Styles
 import styles from "./li.module.scss";
+// Components
 import UserSettings from "../UserSettings/UserSettings";
 
 // function openUserSettings(user, theme) {
@@ -19,9 +22,9 @@ function Li(props) {
       onClick={() => {
         if (props.click === "modalOpenned") {
           // openUserSettings(user);
-          console.log("modalOpenned")
-        }  else{
-          console.log("modalNotOpenned")
+          console.log("modalOpenned");
+        } else {
+          console.log("modalNotOpenned");
         }
       }}
       click={click}

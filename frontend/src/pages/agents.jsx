@@ -1,11 +1,10 @@
+// React imports and Hooks
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 // Styles
 import styles from "../styles/agents.module.scss";
-
 // API
 import loadData from "./api/agents";
-
 // Assets
 import {
   GiStarMedal,
@@ -13,10 +12,12 @@ import {
   GiStrikingArrows,
   GiCherish,
 } from "react-icons/gi";
-
+// Next
 import Head from "next/head";
+// Skeletons
 import SkeletonAgents from "../components/Skeletons/SkeletonAgents";
 
+// getStaticProps So roda no lado do servidor
 export async function getStaticProps(ctx){
   const data = await loadData()
   return{
@@ -26,6 +27,9 @@ export async function getStaticProps(ctx){
     revalidate: 60*5 // 5 minutos
   }
 }
+
+// o Next.js busca esse arquivo JSON (pré-calculado no momento da compilação) e o usa como adereços para o componente da página. Isso significa que as transições de página do lado do cliente não serão chamadas getStaticProps, pois apenas o JSON exportado é usado.
+
 
 function Agents({ agentsProps }) {
   
