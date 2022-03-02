@@ -12,6 +12,10 @@
   src: url("../fonts/lexend/Lexend-Bold.ttf");
 }
 @font-face {
+  font-family: "lexend-semi-bold";
+  src: url("../fonts/lexend/Lexend-SemiBold.ttf");
+}
+@font-face {
   font-family: "lexend-black";
   src: url("../fonts/lexend/Lexend-Black.ttf");
 }
@@ -62,6 +66,7 @@
   --font-valorant: "valorant", "Segoe UI", sans-serif;
   --font-lexend-thin: "lexend-thin", "Segoe UI", sans-serif;
   --font-lexend-regular: "lexend-regular", "Segoe UI", sans-serif;
+  --font-lexend-semi-bold: "lexend-semi-bold", "Segoe UI", sans-serif;
   --font-lexend-bold: "lexend-bold", "Segoe UI", sans-serif;
   --font-lexend-black: "lexend-black", "Segoe UI", sans-serif;
 
