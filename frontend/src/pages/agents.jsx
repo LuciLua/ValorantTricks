@@ -24,7 +24,8 @@ export async function getStaticProps(ctx){
     props: {
       agentsProps: data
     },
-    revalidate: 60*5 // 5 minutos
+    // revalidate: 60*5 // 5 minutos
+    revalidate: 60 // 1 minuto
   }
 }
 
@@ -42,7 +43,7 @@ function Agents({ agentsProps }) {
       setAgents({
         agentsProps
       })
-    }, 1500);
+    }, 2000);
   });
 
   return (
@@ -67,9 +68,14 @@ function Agents({ agentsProps }) {
                       {agent.type == "duelista" ? <GiCrossedSwords /> : ""}
                       {agent.type == "iniciador" ? <GiStrikingArrows /> : ""}
                       {agent.type == "sentinela" ? <GiCherish /> : ""}
-                    </span>{" "}
+                    </span>
                     <span type={`${agent.type}`} className={styles.typeName}>
                       {agent.type}
+                    </span>
+                  </div>
+                  <div className={styles.biography}>
+                    <span>
+                      {agent.biography}
                     </span>
                   </div>
                   <div className={styles.agentImage}>

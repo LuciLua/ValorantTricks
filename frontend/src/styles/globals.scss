@@ -28,35 +28,35 @@
   --valorant-red-dark: #53212b;
   --valorant-white: #fffbf5;
   --valorant-dark: #000000;
-  
+
   --valorant-red-light-transparent25: #fd455741;
   --valorant-red-light-transparent50: #fd45577b;
   --valorant-red-medium-transparent50: #bd394488;
-  --valorant-white-transparent25: #fffbf5b6;
+  --valorant-white-transparent10: #fffbf512;
+  --valorant-white-transparent20: #fffbf55e;
+  --valorant-white-transparent25: #fffbf541;
   --valorant-white-transparent50: #fffbf586;
-  --valorant-white-transparent75: #fffbf53d;
+  --valorant-white-transparent75: #fffbf5b9;
   --valorant-red-dark-transparent50: #53212b7c;
   --valorant-dark-transparent25: #0000003c;
   --valorant-dark-transparent75: #000000bb;
-  
+
   // Agent types colors
   --valorant-agent-duelista: rgb(243, 92, 92);
   --valorant-agent-sentinela: rgb(87, 191, 87);
   --valorant-agent-iniciador: rgb(106, 196, 248);
   --valorant-agent-controlador: rgb(238, 225, 126);
 
-
-  // Color Palete: hover 
+  // Color Palete: hover
   --valorant-red-light-hover: #df5462;
-  
+
   // Color Palete: active
   --valorant-red-light-active: #e93446;
 
-  // Colors 
+  // Colors
 
   --gray-1: #e4e4e4;
   --gray-2: #c4c4c4;
-
 
   // Fonts
   --font-valorant: "valorant", "Segoe UI", sans-serif;
@@ -98,6 +98,8 @@ body {
     min-height: var(--height-main);
     background-color: #e4e4e4;
     padding: 30px;
+
+    overflow: hidden;
   }
 
   footer {
@@ -118,18 +120,17 @@ body {
   flex-direction: column;
 }
 
-
 // Scrolling
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 7px;
   background: var(--gray-1);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: var(--gray-2);
   border-radius: 20px;
 }
 
 // Skeletons
-@import "../components/Skeletons/Skeletons.scss"
+@import "../components/Skeletons/Skeletons.scss";

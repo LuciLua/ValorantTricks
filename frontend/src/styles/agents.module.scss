@@ -16,9 +16,9 @@
 
     padding: 5px 13px;
 
-    width: 200px;
-    max-width: 200px;
-    
+    width: 250px;
+    max-width: 250px;
+
     min-height: 290px;
     height: 290px;
 
@@ -57,8 +57,8 @@
 
     .titleAgent {
       width: 100%;
-    //   border-bottom: var(--valorant-white) 1px solid;
-    text-align: left;
+      //   border-bottom: var(--valorant-white) 1px solid;
+      text-align: left;
     }
 
     .types {
@@ -133,10 +133,107 @@
       }
     }
 
+    & {
+      overflow: hidden;
+      position: relative;
+      transition: 2s;
+    }
+
+    &:hover {
+      transition: 0.5s;
+      overflow: visible;
+
+      .types {
+        display: none;
+      }
+      .titleAgent {
+        display: none;
+      }
+    }
+
+    &:not(:hover) {
+      min-width: 220px;
+      max-width: 220px;
+      // min-width: 250px;
+    }
+
+    .biography {
+      position: absolute;
+      font-size: 14px;
+      font-family: var(--font-lexend-regular);
+
+      margin: 0px;
+      background-color: var(--valorant-white-transparent75);
+      border-radius: 30px;
+      padding: 10px 14px;
+
+      backdrop-filter: blur(4px);
+
+      color: var(--valorant-dark-transparent75);
+
+      text-align: justify;
+
+      line-height: 1.5;
+
+      top: 1000px;
+
+      transition: 0.2s;
+
+      display: none;
+    }
+
+    &:hover .agentImage {
+      left: 70%;
+      top: -5%;
+
+      pointer-events: none;
+
+      transition: 0.2s;
+
+      min-width: 400px;
+      min-height: 400px;
+
+      z-index: 3;
+    }
+
+    &:hover .biography {
+      transition: 0.2s;
+      z-index: 2;
+
+      animation: upBio 0.2s linear;
+
+      display: flex;
+      top: 5%;
+
+      cursor: pointer;
+    }
+
+    @keyframes upBio {
+      0% {
+        opacity: 0%;
+        top: 200px;
+      }
+      50% {
+        opacity: 0%;
+      }
+      75% {
+        opacity: 50%;
+      }
+      100% {
+        opacity: 100%;
+        top: 0;
+      }
+    }
+
     .agentImage {
       width: 200px;
       height: 200px;
       position: relative;
+
+      top: -1%;
+      left: 0%;
+
+      transition: 0.2s;
 
       img {
         object-fit: contain;
