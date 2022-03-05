@@ -1,0 +1,454 @@
+{
+    "agents": [
+        {
+            "id": 1,
+            "name": "Sova",
+            "image": "/agents/valorant_agent_sova.png",
+            "type": "iniciador",
+            "biography": "Nascido do eterno inverno da tundra da Rússia, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e incríveis habilidades de reconhecimento garantem que, mesmo se você correr, não poderá se esconder.",
+            "skills": [
+                {
+                    "q": "Flecha de choque",
+                    "about": "EQUIPE um arco com um parafuso de choque. FIRE para enviar o explosivo para frente, detonando na colisão e danificando jogadores próximos. SEGURE FOGO para estender o alcance do projétil. ALTERNATE FIRE para adicionar até dois saltos a esta seta."
+                },
+                {
+                    "e": "Flecha de Ricocheteio",
+                    "about": "EQUIPE um arco com um parafuso de reconhecimento. DISPARE para enviar o raio de reconhecimento para frente, ativando na colisão e revelando a localização de inimigos próximos presos na linha de visão do raio. SEGURE FOGO para estender o alcance do projétil. ALTERNATE FIRE para adicionar até dois saltos a esta seta."
+                },
+                {
+                    "c": "Drone coruja",
+                    "about": "EQUIPE um drone coruja. FIRE para implantar e assumir o controle do movimento do drone. Enquanto estiver no controle do drone, DISPARE para atirar um dardo de marcação. Este dardo revelará a localização de qualquer jogador atingido pelo dardo."
+                },
+                {
+                    "x": "Fúria do caçador",
+                    "about": "EQUIPE um arco com três rajadas de energia de longo alcance que perfuram a parede. FIRE para liberar uma explosão de energia em uma linha na frente de Sova, causando dano e revelando a localização dos inimigos presos na linha. Esta habilidade pode ser REUTILIZADA até mais duas vezes enquanto o cronômetro de habilidade estiver ativo."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Astra",
+            "image": "/agents/valorant_agent_astra.png",
+            "type": "controlador",
+            "biography": "A agente ganesa Astra aproveita as energias do cosmos para remodelar os campos de batalha ao seu capricho. Com total domínio de sua forma astral e talento para uma profunda visão estratégica, ela está sempre muito à frente do próximo movimento de seu inimigo.",
+            "skills": [
+                {
+                    "q": "Pulso nova",
+                    "about": "Coloque Estrelas em Forma Astral (X) ATIVE uma Estrela para detonar um Pulso Nova. O Nova Pulse carrega brevemente e depois ataca, concussando todos os jogadores em sua área."
+                },
+                {
+                    "e": "Nebula",
+                    "about": "Coloque Estrelas em Forma Astral (X) ATIVE uma Estrela para transformá-la em Nebulosa (fumaça). Use (F) em uma estrela para dissipá-la, retornando a estrela para ser colocada em um novo local após um atraso. Dissipar brevemente forma uma falsa Nebulosa na localização da Estrela antes de retornar."
+                },
+                {
+                    "c": "Poço de Gravidade",
+                    "about": "Coloque Estrelas em Forma Astral (X) ATIVE uma Estrela para formar um Poço Gravitacional. Os jogadores na área são puxados para o centro antes que exploda, tornando todos os jogadores ainda presos dentro frágeis."
+                },
+                {
+                    "x": "Forma Astral/Divisão Cósmica",
+                    "about": "ATIVE (X) para entrar na Forma Astral onde você pode colocar Estrelas com FOGO PRIMÁRIO. As estrelas podem ser reativadas mais tarde, transformando-as em Nova Pulse, Nebula ou Gravity Well. Quando Cosmic Divide estiver carregado, use FOGO SECUNDÁRIO em Forma Astral para começar a mirar, então FOGO PRIMÁRIO para selecionar dois locais. Uma divisão cósmica infinita conecta os dois pontos que você selecionar. Cosmic Divide bloqueia balas e amortece fortemente o áudio."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Breach",
+            "image": "/agents/valorant_agent_breach.png",
+            "type": "iniciador",
+            "biography": "Breach, o sueco biônico, dispara rajadas cinéticas poderosas e direcionadas para abrir caminho agressivamente pelo terreno inimigo. O dano e a interrupção que ele inflige garante que nenhuma luta seja justa.",
+            "skills": [
+                {
+                    "q": "Ponto de Inflamação",
+                    "about": "EQUIPE uma carga ofuscante. DISPARE a carga para definir uma explosão de ação rápida através da parede. A carga detona para cegar todos os jogadores olhando para ela."
+                },
+                {
+                    "e": "Linha de Falha",
+                    "about": "EQUIPE uma explosão sísmica. SEGURE FOGO para aumentar a distância. RELEASE para desencadear o terremoto, atordoando todos os jogadores em sua zona e em fila para a zona."
+                },
+                {
+                    "c": "Pós choque",
+                    "about": "EQUIPE uma carga de fusão. DISPARE a carga para definir uma explosão de ação lenta através da parede. A explosão causa grandes danos a qualquer um pego em sua área."
+                },
+                {
+                    "x": "Trovão rolante",
+                    "about": "EQUIPE uma carga sísmica. FOGO para enviar um terremoto em cascata por todo o terreno em um grande cone. O terremoto atordoa e derruba qualquer um pego nele."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Brimstone",
+            "image": "/agents/valorant_agent_brimstone.png",
+            "type": "controlador",
+            "biography": "Vindo dos EUA, o arsenal orbital de Brimstone garante que seu time sempre tenha vantagem. Sua capacidade de fornecer utilidade com precisão e à distância o torna um comandante inigualável.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Chamber",
+            "image": "/agents/valorant_agent_chamber.png",
+            "type": "sentinela",
+            "biography": "Bem vestido e bem armado, o designer de armas francês Chamber expulsa os agressores com precisão mortal. Ele aproveita seu arsenal personalizado para manter a linha e eliminar inimigos de longe, com uma contingência construída para cada plano.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Cypher",
+            "image": "/agents/valorant_agent_cypher.png",
+            "type": "sentinela",
+            "biography": "O corretor de informações marroquino, Cypher é uma rede de vigilância de um homem só que mantém o controle sobre cada movimento do inimigo. Nenhum segredo é seguro. Nenhuma manobra passa despercebida. Cypher está sempre observando.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Jett",
+            "image": "/agents/valorant_agent_jett.png",
+            "type": "duelista",
+            "biography": "Representando seu país natal, a Coréia do Sul, o estilo de luta ágil e evasivo de Jett permite que ela corra riscos que ninguém mais pode. Ela corre em círculos ao redor de cada escaramuça, cortando os inimigos antes mesmo que eles saibam o que os atingiu.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "KAY/O",
+            "image": "/agents/valorant_agent_kayo.png",
+            "type": "iniciador",
+            "biography": "KAY/O é uma máquina de guerra construída para um único propósito: neutralizar radiantes. Seu poder de suprimir as habilidades inimigas prejudica a capacidade de seus oponentes de revidar, garantindo a ele e seus aliados a vantagem final.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Killjoy",
+            "image": "/agents/valorant_agent_killjoy.png",
+            "type": "sentinela",
+            "biography": "O gênio da Alemanha. Killjoy protege o campo de batalha com facilidade usando seu arsenal de invenções. Se o dano de seu equipamento não parar seus inimigos, o debuff de seus robôs ajudará a acabar com eles.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Neon",
+            "image": "/agents/valorant_agent_neon.png",
+            "type": "duelista",
+            "biography": "A agente filipina Neon avança a velocidades chocantes, descarregando rajadas de brilho bioelétrico tão rápido quanto seu corpo o gera. Ela corre à frente para pegar os inimigos desprevenidos, depois os derruba mais rápido que um raio.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Omen",
+            "image": "/agents/valorant_agent_omen.png",
+            "type": "controlador",
+            "biography": "Um fantasma de uma memória, Omen caça nas sombras. Ele deixa os inimigos cegos, se teletransporta pelo campo, então deixa a paranóia tomar conta enquanto seu inimigo luta para saber onde ele pode atacar em seguida.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Phoenix",
+            "image": "/agents/valorant_agent_phoenix.png",
+            "type": "duelista",
+            "biography": "Vindo do Reino Unido, o poder estelar de Phoenix brilha em seu estilo de luta, inflamando o campo de batalha com flash e brilho. Se ele tem reforço ou não, ele vai correr para uma luta em seus próprios termos.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Raze",
+            "image": "/agents/valorant_agent_raze.png",
+            "type": "duelista",
+            "biography": "Raze explode fora do Brasil com sua grande personalidade e grandes armas. Com seu estilo de jogo de trauma de força bruta, ela se destaca em expulsar inimigos entrincheirados e limpar espaços apertados com uma dose generosa de “boom”.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Reyna",
+            "image": "/agents/valorant_agent_reyna.png",
+            "type": "duelista",
+            "biography": "Forjada no coração do México, Reyna domina o combate individual, aparecendo a cada morte que ela marca. Sua capacidade é limitada apenas por sua habilidade bruta, tornando-a altamente dependente do desempenho.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Sage",
+            "image": "/agents/valorant_agent_sage.png",
+            "type": "sentinela",
+            "biography": "A fortaleza da China, Sage cria segurança para ela e sua equipe onde quer que vá. Capaz de reviver amigos caídos e evitar ataques agressivos, ela fornece um centro calmo para uma luta infernal.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Viper",
+            "image": "/agents/valorant_agent_viper.png",
+            "type": "controlador",
+            "biography": "A química americana Viper implanta uma série de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem sua presa, seus jogos mentais certamente o farão.",
+            "skills": [
+                {
+                    "q": "Nuvem de Veneno",
+                    "about": "EQUIPE um emissor de gás. FOGO para lançar o emissor que permanece perpetuamente ao longo da rodada. REUTILIZE a capacidade de criar uma nuvem de gás tóxico ao custo de combustível. Esta habilidade pode ser REUTILIZADA mais de uma vez e pode ser escolhida para ser REIMPLOADA."
+                },
+                {
+                    "e": "Tela tóxica",
+                    "about": "EQUIPE um lançador de emissor de gás. FIRE para implantar uma longa linha de emissores de gás. REUTILIZE a capacidade de criar uma parede alta de gás tóxico ao custo de combustível. Esta habilidade pode ser REUTILIZADA mais de uma vez."
+                },
+                {
+                    "c": "Picada de serpente",
+                    "about": "EQUIPE um lançador químico. DISPARE para lançar uma vasilha que se estilhaça ao atingir o chão, criando uma zona química persistente que danifica e retarda os inimigos."
+                },
+                {
+                    "x": "Poço da víbora",
+                    "about": "EQUIPE um pulverizador químico. FIRE para pulverizar uma nuvem química em todas as direções ao redor do Viper, criando uma grande nuvem que reduz o alcance da visão e a saúde máxima dos jogadores dentro dela."
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Yoru",
+            "image": "/agents/valorant_agent_yoru.png",
+            "type": "duelista",
+            "biography": "Nativo japonês, Yoru, abre buracos direto na realidade para se infiltrar nas linhas inimigas sem ser visto. Usando engano e agressão em igual medida, ele consegue a queda em cada alvo antes que eles saibam onde procurar.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Skye",
+            "image": "/agents/valorant_agent_skye.png",
+            "type": "iniciador",
+            "biography": "Vindo da Austrália, Skye e seu bando de feras abrem caminho através de território hostil. Com suas criações prejudicando o inimigo e seu poder de curar os outros, a equipe é mais forte e segura ao lado de Skye.",
+            "skills": [
+                {
+                    "q": "",
+                    "about": ""
+                },
+                {
+                    "e": "",
+                    "about": ""
+                },
+                {
+                    "c": "",
+                    "about": ""
+                },
+                {
+                    "x": "",
+                    "about": ""
+                }
+            ]
+        }
+    ]
+}
