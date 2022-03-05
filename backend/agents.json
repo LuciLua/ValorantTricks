@@ -33,20 +33,20 @@
             "biography": "A agente ganesa Astra aproveita as energias do cosmos para remodelar os campos de batalha ao seu capricho. Com total domínio de sua forma astral e talento para uma profunda visão estratégica, ela está sempre muito à frente do próximo movimento de seu inimigo.",
             "skills": [
                 {
-                    "q": "",
-                    "about": ""
+                    "q": "Pulso nova",
+                    "about": "Coloque Estrelas em Forma Astral (X) ATIVE uma Estrela para detonar um Pulso Nova. O Nova Pulse carrega brevemente e depois ataca, concussando todos os jogadores em sua área."
                 },
                 {
-                    "e": "",
-                    "about": ""
+                    "e": "Nebula",
+                    "about": "Coloque Estrelas em Forma Astral (X) ATIVE uma Estrela para transformá-la em Nebulosa (fumaça). Use (F) em uma estrela para dissipá-la, retornando a estrela para ser colocada em um novo local após um atraso. Dissipar brevemente forma uma falsa Nebulosa na localização da Estrela antes de retornar."
                 },
                 {
-                    "c": "",
-                    "about": ""
+                    "c": "Poço de Gravidade",
+                    "about": "Coloque Estrelas em Forma Astral (X) ATIVE uma Estrela para formar um Poço Gravitacional. Os jogadores na área são puxados para o centro antes que exploda, tornando todos os jogadores ainda presos dentro frágeis."
                 },
                 {
-                    "x": "",
-                    "about": ""
+                    "x": "Forma Astral/Divisão Cósmica",
+                    "about": "ATIVE (X) para entrar na Forma Astral onde você pode colocar Estrelas com FOGO PRIMÁRIO. As estrelas podem ser reativadas mais tarde, transformando-as em Nova Pulse, Nebula ou Gravity Well. Quando Cosmic Divide estiver carregado, use FOGO SECUNDÁRIO em Forma Astral para começar a mirar, então FOGO PRIMÁRIO para selecionar dois locais. Uma divisão cósmica infinita conecta os dois pontos que você selecionar. Cosmic Divide bloqueia balas e amortece fortemente o áudio."
                 }
             ]
         },
@@ -58,20 +58,20 @@
             "biography": "Breach, o sueco biônico, dispara rajadas cinéticas poderosas e direcionadas para abrir caminho agressivamente pelo terreno inimigo. O dano e a interrupção que ele inflige garante que nenhuma luta seja justa.",
             "skills": [
                 {
-                    "q": "",
-                    "about": ""
+                    "q": "Ponto de Inflamação",
+                    "about": "EQUIPE uma carga ofuscante. DISPARE a carga para definir uma explosão de ação rápida através da parede. A carga detona para cegar todos os jogadores olhando para ela."
                 },
                 {
-                    "e": "",
-                    "about": ""
+                    "e": "Linha de Falha",
+                    "about": "EQUIPE uma explosão sísmica. SEGURE FOGO para aumentar a distância. RELEASE para desencadear o terremoto, atordoando todos os jogadores em sua zona e em fila para a zona."
                 },
                 {
-                    "c": "",
-                    "about": ""
+                    "c": "Pós choque",
+                    "about": "EQUIPE uma carga de fusão. DISPARE a carga para definir uma explosão de ação lenta através da parede. A explosão causa grandes danos a qualquer um pego em sua área."
                 },
                 {
-                    "x": "",
-                    "about": ""
+                    "x": "Trovão rolante",
+                    "about": "EQUIPE uma carga sísmica. FOGO para enviar um terremoto em cascata por todo o terreno em um grande cone. O terremoto atordoa e derruba qualquer um pego nele."
                 }
             ]
         },
